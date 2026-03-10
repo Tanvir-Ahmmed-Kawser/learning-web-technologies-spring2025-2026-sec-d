@@ -1,0 +1,18 @@
+table{
+    position: relative;
+    margin: 1%;
+    border-color: black;
+    border-spacing: 0px;
+}
+td{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+#reset{
+    border-radius: 20%;    
+}
