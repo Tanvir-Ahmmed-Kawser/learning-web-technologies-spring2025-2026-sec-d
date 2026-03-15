@@ -1,4 +1,4 @@
-const price = 1000;
+const price = 100;
 
 let quantity = document.getElementById("Quantity");
 let totalPrice = document.getElementById("totalPrice");

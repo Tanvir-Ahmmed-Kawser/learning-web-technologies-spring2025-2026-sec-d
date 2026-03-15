@@ -5,3 +5,6 @@ body{
 b{
     color: orange;
 }
+input{
+    border-radius: 5px;
+}
