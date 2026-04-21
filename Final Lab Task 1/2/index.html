@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Question 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <fieldset>
-        <legend>CHANGE PASSWORD</legend>
-        <label for="currentPassword">Current Password:</label>
-        <input type="password" name="currentPassword">
-        <br>
-        <label for="newPassword" id="newPassword">New Password:</label>
-        <input type="password" name="newPassword">
-        <br>
-        <label for="reTypePassword"> Retype New Password:</label>
-        <input type="password" name="reTypePassword">
-        <hr>
-        <input type="submit">
-    </fieldset>
+    <form action="index.php" method="post">        
+        <fieldset>
+            <legend>CHANGE PASSWORD</legend>
+            <label for="currentPassword">Current Password:</label>
+            <input type="password" name="currentPassword">
+            <br>
+            <br>
+            <label for="newPassword" id="newPassword">New Password:</label>
+            <input type="password" name="newPassword">
+            <br>
+            <br>
+            <label for="reTypePassword" id="reTypePassword">Retype New Password:</label>
+            <input type="password" name="reTypePassword">
+            <hr>
+            <input type="submit">
+        </fieldset>
+    </form>
 </body>
 </html>

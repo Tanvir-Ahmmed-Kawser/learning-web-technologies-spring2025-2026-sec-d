@@ -1,0 +1,9 @@
+#newPassword{
+    color: green;
+}
+#reTypePassword{
+    color: red;
+}
+fieldset{
+    align-items: center;
+}
