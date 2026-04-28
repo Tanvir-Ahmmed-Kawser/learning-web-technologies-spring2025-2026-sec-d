@@ -7,9 +7,9 @@ if (!isset($_SESSION['users'])) {
 $users = $_SESSION['users'];
 $id = $_GET['id'];
 
-foreach ($users as $u) {
+foreach ($users as $k => $u) {
     if ($u['id'] == $id) {
-        unset($users[$id]);
+        unset($users[$k]);
         break;
     }
 }
